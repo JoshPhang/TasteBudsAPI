@@ -141,3 +141,4 @@ C:\Users\Josh\Documents\Files\UNBC\2024 Fall\CPSC 300\Final Project\TasteBudsAPI
 C:\Users\Josh\Documents\Files\UNBC\2024 Fall\CPSC 300\Final Project\TasteBudsAPI\obj\Debug\net8.0\TasteBudsAPI.pdb
 C:\Users\Josh\Documents\Files\UNBC\2024 Fall\CPSC 300\Final Project\TasteBudsAPI\obj\Debug\net8.0\TasteBudsAPI.genruntimeconfig.cache
 C:\Users\Josh\Documents\Files\UNBC\2024 Fall\CPSC 300\Final Project\TasteBudsAPI\obj\Debug\net8.0\ref\TasteBudsAPI.dll
+C:\Users\Josh\Documents\Files\UNBC\2024 Fall\CPSC 300\Final Project\TasteBudsAPI\obj\Debug\net8.0\TasteBudsAPI.sourcelink.json

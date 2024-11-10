@@ -1,0 +1,13 @@
+﻿@TasteBudsAPI_HostAddress = https://localhost:7067
+
+GET {{TasteBudsAPI_HostAddress}}/recipe
+
+###
+###
+
+POST {{TasteBudsAPI_HostAddress}}/recipe?recipe_id=3&recipe_name=test&recipe_link=testlink&cook_time=3min&is_Vegan=0&is_Vegetarian=0&is_GlutenFree=0&nutritional_facts=testfacts&portion_size=3
+###
+
+DELETE {{TasteBudsAPI_HostAddress}}/recipe/3
+
+###

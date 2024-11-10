@@ -1,7 +1,10 @@
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
+
 builder.Services.AddDbContext<RecipesDB>(
+    opt => opt.UseSqlServer("Server=.;Initial Catalog=TasteBuds;User Id=TestUser; Password=passwd;Trusted_Connection=True;TrustServerCertificate=True"));
+builder.Services.AddDbContext<IngredientsDB>(
     opt => opt.UseSqlServer("Server=.;Initial Catalog=TasteBuds;User Id=TestUser; Password=passwd;Trusted_Connection=True;TrustServerCertificate=True"));
 
 var app = builder.Build();
@@ -15,7 +18,7 @@ app.MapGet("/recipe/{id}", async (int id, RecipesDB db) =>
             ? Results.Ok(recipe)
             : Results.NotFound());
 
-app.MapPost("/recipe", async (Recipes recipe, RecipesDB db) =>
+app.MapPost("/recipe", async ([AsParameters] Recipes recipe, RecipesDB db) =>
 {
     db.Recipe.Add(recipe);
     await db.SaveChangesAsync();
@@ -47,5 +50,14 @@ app.MapDelete("/recipe/{id}", async (int id, RecipesDB db) =>
 
     return Results.NotFound();
 });
+
+app.MapGet("/ingredient", async (IngredientsDB db) =>
+    await db.Ingredient.ToListAsync());
+
+app.MapGet("/ingredient/{id}", async (int id, IngredientsDB db) =>
+    await db.Ingredient.FindAsync(id)
+        is Ingredients ingredient
+            ? Results.Ok(ingredient)
+            : Results.NotFound());
 
 app.Run();
