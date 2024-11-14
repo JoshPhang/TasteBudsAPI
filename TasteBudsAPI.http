@@ -9,5 +9,3 @@ POST {{TasteBudsAPI_HostAddress}}/recipe?recipe_id=3&recipe_name=test&recipe_lin
 ###
 
 DELETE {{TasteBudsAPI_HostAddress}}/recipe/3
-
-###
