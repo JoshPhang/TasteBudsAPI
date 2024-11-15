@@ -2746,23 +2746,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Josh\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Joshua\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Josh\\Documents\\Files\\UNBC\\2024 Fall\\CPSC 300\\Final Project\\TasteBudsAPI\\TasteBudsAPI.csproj",
+      "projectUniqueName": "Z:\\E Backup\\Cloud\\Uni\\Fall 2024\\CPSC 300\\Final Project\\TasteBudsAPI\\TasteBudsAPI.csproj",
       "projectName": "TasteBudsAPI",
-      "projectPath": "C:\\Users\\Josh\\Documents\\Files\\UNBC\\2024 Fall\\CPSC 300\\Final Project\\TasteBudsAPI\\TasteBudsAPI.csproj",
-      "packagesPath": "C:\\Users\\Josh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Josh\\Documents\\Files\\UNBC\\2024 Fall\\CPSC 300\\Final Project\\TasteBudsAPI\\obj\\",
+      "projectPath": "Z:\\E Backup\\Cloud\\Uni\\Fall 2024\\CPSC 300\\Final Project\\TasteBudsAPI\\TasteBudsAPI.csproj",
+      "packagesPath": "C:\\Users\\Joshua\\.nuget\\packages\\",
+      "outputPath": "Z:\\E Backup\\Cloud\\Uni\\Fall 2024\\CPSC 300\\Final Project\\TasteBudsAPI\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Josh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Joshua\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
