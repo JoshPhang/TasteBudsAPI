@@ -11,11 +11,15 @@
       "RelativeMoniker": "D:0:0:{C0640337-4A95-4473-969C-AC0ADB84632F}|TasteBudsAPI.csproj|solutionrelative:recipesdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< HEAD
+      "AbsoluteMoniker": "D:0:0:{C0640337-4A95-4473-969C-AC0ADB84632F}|TasteBudsAPI.csproj|c:\\users\\josh\\documents\\files\\unbc\\2024 fall\\cpsc 300\\final project\\tastebudsapi\\ingredientsdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+=======
       "AbsoluteMoniker": "D:0:0:{C0640337-4A95-4473-969C-AC0ADB84632F}|TasteBudsAPI.csproj|z:\\e backup\\cloud\\uni\\fall 2024\\cpsc 300\\final project\\tastebudsapi\\recipes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0640337-4A95-4473-969C-AC0ADB84632F}|TasteBudsAPI.csproj|solutionrelative:recipes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C0640337-4A95-4473-969C-AC0ADB84632F}|TasteBudsAPI.csproj|z:\\e backup\\cloud\\uni\\fall 2024\\cpsc 300\\final project\\tastebudsapi\\ingredientsdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+>>>>>>> 2007fbd7208b906140fd72d837be7a3a9edd7e01
       "RelativeMoniker": "D:0:0:{C0640337-4A95-4473-969C-AC0ADB84632F}|TasteBudsAPI.csproj|solutionrelative:ingredientsdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -23,8 +27,13 @@
       "RelativeMoniker": "D:0:0:{C0640337-4A95-4473-969C-AC0ADB84632F}|TasteBudsAPI.csproj|solutionrelative:tastebudsapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
+<<<<<<< HEAD
+      "AbsoluteMoniker": "D:0:0:{C0640337-4A95-4473-969C-AC0ADB84632F}|TasteBudsAPI.csproj|c:\\users\\josh\\documents\\files\\unbc\\2024 fall\\cpsc 300\\final project\\tastebudsapi\\recipes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0640337-4A95-4473-969C-AC0ADB84632F}|TasteBudsAPI.csproj|solutionrelative:recipes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
       "AbsoluteMoniker": "D:0:0:{C0640337-4A95-4473-969C-AC0ADB84632F}|TasteBudsAPI.csproj|z:\\e backup\\cloud\\uni\\fall 2024\\cpsc 300\\final project\\tastebudsapi\\ingredients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0640337-4A95-4473-969C-AC0ADB84632F}|TasteBudsAPI.csproj|solutionrelative:ingredients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> 2007fbd7208b906140fd72d837be7a3a9edd7e01
     }
   ],
   "DocumentGroupContainers": [
@@ -34,18 +43,25 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "IngredientsDB.cs",
               "DocumentMoniker": "Z:\\E Backup\\Cloud\\Uni\\Fall 2024\\CPSC 300\\Final Project\\TasteBudsAPI\\IngredientsDB.cs",
               "RelativeDocumentMoniker": "IngredientsDB.cs",
               "ToolTip": "Z:\\E Backup\\Cloud\\Uni\\Fall 2024\\CPSC 300\\Final Project\\TasteBudsAPI\\IngredientsDB.cs",
               "RelativeToolTip": "IngredientsDB.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< HEAD
+              "WhenOpened": "2024-11-14T22:38:54.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+=======
               "WhenOpened": "2024-11-09T13:18:55.134Z"
             },
             {
@@ -63,14 +79,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
+>>>>>>> 2007fbd7208b906140fd72d837be7a3a9edd7e01
               "Title": "TasteBudsAPI.http",
               "DocumentMoniker": "Z:\\E Backup\\Cloud\\Uni\\Fall 2024\\CPSC 300\\Final Project\\TasteBudsAPI\\TasteBudsAPI.http",
               "RelativeDocumentMoniker": "TasteBudsAPI.http",
               "ToolTip": "Z:\\E Backup\\Cloud\\Uni\\Fall 2024\\CPSC 300\\Final Project\\TasteBudsAPI\\TasteBudsAPI.http",
               "RelativeToolTip": "TasteBudsAPI.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+<<<<<<< HEAD
+              "WhenOpened": "2024-11-10T02:57:54.786Z"
+=======
               "WhenOpened": "2024-11-08T17:38:48.919Z"
+>>>>>>> 2007fbd7208b906140fd72d837be7a3a9edd7e01
             },
             {
               "$type": "Document",
@@ -80,13 +101,13 @@
               "RelativeDocumentMoniker": "RecipesDB.cs",
               "ToolTip": "Z:\\E Backup\\Cloud\\Uni\\Fall 2024\\CPSC 300\\Final Project\\TasteBudsAPI\\RecipesDB.cs",
               "RelativeToolTip": "RecipesDB.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-07T22:51:38.822Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Recipes.cs",
               "DocumentMoniker": "Z:\\E Backup\\Cloud\\Uni\\Fall 2024\\CPSC 300\\Final Project\\TasteBudsAPI\\Recipes.cs",
               "RelativeDocumentMoniker": "Recipes.cs",
@@ -104,7 +125,11 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "Z:\\E Backup\\Cloud\\Uni\\Fall 2024\\CPSC 300\\Final Project\\TasteBudsAPI\\Program.cs",
               "RelativeToolTip": "Program.cs",
+<<<<<<< HEAD
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
+=======
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAZAAAAAAAAAA==",
+>>>>>>> 2007fbd7208b906140fd72d837be7a3a9edd7e01
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-07T22:47:56.436Z",
               "EditorCaption": ""
