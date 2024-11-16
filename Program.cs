@@ -4,17 +4,17 @@ using System.Collections.Generic;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<RecipesDB>(
-    opt => opt.UseSqlServer("Server=localhost;Initial Catalog=300_Project;User Id=Preet; Password=Preet;Trusted_Connection=True;TrustServerCertificate=True"));
+    opt => opt.UseSqlServer("Server=.;Initial Catalog=TasteBuds;User Id=TestUser; Password=passwd;Trusted_Connection=True;TrustServerCertificate=True"));
 builder.Services.AddDbContext<IngredientsDB>(
-    opt => opt.UseSqlServer("Server=localhost;Initial Catalog=300_Project;User Id=Preet; Password=Preet;Trusted_Connection=True;TrustServerCertificate=True"));
+    opt => opt.UseSqlServer("Server=.;Initial Catalog=TasteBuds;User Id=TestUser; Password=passwd;Trusted_Connection=True;TrustServerCertificate=True"));
 builder.Services.AddDbContext<Recipe_Ingredient_JunctionDB>(
-    opt => opt.UseSqlServer("Server=localhost;Initial Catalog=300_Project;User Id=Preet; Password=Preet;Trusted_Connection=True;TrustServerCertificate=True"));
+    opt => opt.UseSqlServer("Server=.;Initial Catalog=TasteBuds;User Id=TestUser; Password=passwd;Trusted_Connection=True;TrustServerCertificate=True"));
 builder.Services.AddDbContext<Favourite_recipesDB>(
-    opt => opt.UseSqlServer("Server=localhost;Initial Catalog=300_Project;User Id=Preet; Password=Preet;Trusted_Connection=True;TrustServerCertificate=True"));
+    opt => opt.UseSqlServer("Server=.;Initial Catalog=TasteBuds;User Id=TestUser; Password=passwd;Trusted_Connection=True;TrustServerCertificate=True"));
 builder.Services.AddDbContext<Shopping_cartDB>(
-    opt => opt.UseSqlServer("Server=localhost;Initial Catalog=300_Project;User Id=Preet; Password=Preet;Trusted_Connection=True;TrustServerCertificate=True"));
+    opt => opt.UseSqlServer("Server=.;Initial Catalog=TasteBuds;User Id=TestUser; Password=passwd;Trusted_Connection=True;TrustServerCertificate=True"));
 builder.Services.AddDbContext<UserDB>(
-    opt => opt.UseSqlServer("Server=localhost;Initial Catalog=300_Project;User Id=Preet; Password=Preet;Trusted_Connection=True;TrustServerCertificate=True"));
+    opt => opt.UseSqlServer("Server=.;Initial Catalog=TasteBuds;User Id=TestUser; Password=passwd;Trusted_Connection=True;TrustServerCertificate=True"));
 
 var app = builder.Build();
 
@@ -73,7 +73,7 @@ app.MapGet("/ingredient/{id}", async (int id, IngredientsDB db) =>
 
 //GET_POST_DELETE for RECIPE_ING_JUNCTION
 app.MapGet("/Recipe_Ingredient_Junction", async (Recipe_Ingredient_JunctionDB db) =>
-await db.Recipe_Ingredient_Junction.ToListAsync());
+    await db.Recipe_Ingredient_Junction.ToListAsync());
 
 app.MapGet("/Recipe_Ingredient_Junction/{id}", async (int id, Recipe_Ingredient_JunctionDB db) =>
     await db.Recipe_Ingredient_Junction.FindAsync(id)
@@ -81,12 +81,12 @@ app.MapGet("/Recipe_Ingredient_Junction/{id}", async (int id, Recipe_Ingredient_
             ? Results.Ok(Recipe_Ingredient_Junction)
             : Results.NotFound());
 
-app.MapPost("/Recipe_Ingredient_Junction", async ([AsParameters] Recipe_Ingredient_Junction Recipe_Ingredient_Junction, Recipe_Ingredient_Junction db) =>
+app.MapPost("/Recipe_Ingredient_Junction", async ([AsParameters] Recipe_Ingredient_Junction recipe_Ingredient_Junction, Recipe_Ingredient_JunctionDB db) =>
 {
-    db.Recipe_Ingredient_Junction.Add(Recipe_Ingredient_Junction);
+    db.Recipe_Ingredient_Junction.Add(recipe_Ingredient_Junction);
     await db.SaveChangesAsync();
 
-    return Results.Created($"/Recipe_Ingredient_Junction/{Recipe_Ingredient_Junction.Recipe_id}", Recipe_Ingredient_Junction);
+    return Results.Created($"/Recipe_Ingredient_Junction/{recipe_Ingredient_Junction.Recipe_id}", recipe_Ingredient_Junction);
 });
 
 app.MapDelete("/Recipe_Ingredient_Junction/{id}", async (int id, Recipe_Ingredient_JunctionDB db) =>
@@ -111,12 +111,12 @@ app.MapGet("/Favourite_recipes/{id}", async (int id, Favourite_recipesDB db) =>
             ? Results.Ok(Favourite_recipes)
             : Results.NotFound());
 
-app.MapPost("/Favourite_recipes", async ([AsParameters] Favourite_recipes Favourite_recipes, Favourite_recipes db) =>
+app.MapPost("/Favourite_recipes", async ([AsParameters] Favourite_recipes favourite_recipes, Favourite_recipesDB db) =>
 {
-    db.Favourite_recipes.Add(Favourite_recipes);
+    db.Favourite_recipes.Add(favourite_recipes);
     await db.SaveChangesAsync();
 
-    return Results.Created($"/Favourite_recipes/{Favourite_recipes.List_id}", Favourite_recipes);
+    return Results.Created($"/Favourite_recipes/{favourite_recipes.List_id}", favourite_recipes);
 });
 
 app.MapDelete("/Favourite_recipes/{id}", async (int id, Favourite_recipesDB db) =>
@@ -141,19 +141,19 @@ app.MapGet("/Shopping_cart/{id}", async (int id, Shopping_cartDB db) =>
             ? Results.Ok(Shopping_cart)
             : Results.NotFound());
 
-app.MapPost("/Shopping_cart", async ([AsParameters] Shopping_cart Shopping_cart, Shopping_cart db) =>
+app.MapPost("/Shopping_cart", async ([AsParameters] Shopping_cart shopping_cart, Shopping_cartDB db) =>
 {
-    db.Shopping_cart.Add(Shopping_cart);
+    db.Shopping_cart.Add(shopping_cart);
     await db.SaveChangesAsync();
 
-    return Results.Created($"/Shopping_cart/{Shopping_cart.Cart_id}", Shopping_cart);
+    return Results.Created($"/Shopping_cart/{shopping_cart.User_id}-{shopping_cart.Ingredient_id}", shopping_cart);
 });
 
 app.MapDelete("/Shopping_cart/{id}", async (int id, Shopping_cartDB db) =>
 {
     if (await db.Shopping_cart.FindAsync(id) is Shopping_cart Shopping_Cart)
     {
-        db.Shopping_cart.Remove(Shopping_cart);
+        db.Shopping_cart.Remove(Shopping_Cart);
         await db.SaveChangesAsync();
         return Results.NoContent();
     }
@@ -162,16 +162,16 @@ app.MapDelete("/Shopping_cart/{id}", async (int id, Shopping_cartDB db) =>
 });
 
 //MAP_GET_POST FOR USER
-app.MapGet("/User", async (UsertDB db) =>
+app.MapGet("/User", async (UserDB db) =>
 await db.User.ToListAsync());
 
 app.MapGet("/User/{id}", async (int id, UserDB db) =>
     await db.User.FindAsync(id)
         is User User
-            ? User.Ok(User)
-: Results.NotFound());
+            ? Results.Ok(User)
+            : Results.NotFound());
 
-app.MapPost("/User", async ([AsParameters] User User, User db) =>
+app.MapPost("/User", async ([AsParameters] User User, UserDB db) =>
 {
     db.User.Add(User);
     await db.SaveChangesAsync();
