@@ -71,7 +71,6 @@ app.MapGet("/ingredient/{id}", async (int id, IngredientsDB db) =>
 
 
 
-
 //GET_POST_DELETE for RECIPE_ING_JUNCTION
 app.MapGet("/Recipe_Ingredient_Junction", async (Recipe_Ingredient_JunctionDB db) =>
 await db.Recipe_Ingredient_Junction.ToListAsync());
@@ -197,3 +196,6 @@ app.Run();
 //mapget, mappost, mapdelete for every table
 //user, shopping cart, fav recipe, recip-ing-junction
 //create ingredient.cs and ingredoient.DB
+
+app.Run();
+
