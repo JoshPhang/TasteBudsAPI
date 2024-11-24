@@ -214,3 +214,7 @@ Z:\E Backup\Cloud\Uni\Fall 2024\CPSC 300\Final Project\TasteBudsAPI\obj\Debug\ne
 Z:\E Backup\Cloud\Uni\Fall 2024\CPSC 300\Final Project\TasteBudsAPI\obj\Debug\net8.0\TasteBudsAPI.pdb
 Z:\E Backup\Cloud\Uni\Fall 2024\CPSC 300\Final Project\TasteBudsAPI\obj\Debug\net8.0\TasteBudsAPI.genruntimeconfig.cache
 Z:\E Backup\Cloud\Uni\Fall 2024\CPSC 300\Final Project\TasteBudsAPI\obj\Debug\net8.0\ref\TasteBudsAPI.dll
+Z:\E Backup\Cloud\Uni\Fall 2024\CPSC 300\Final Project\TasteBudsAPI\bin\Debug\net8.0\TasteBudsAPI.staticwebassets.endpoints.json
+Z:\E Backup\Cloud\Uni\Fall 2024\CPSC 300\Final Project\TasteBudsAPI\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+Z:\E Backup\Cloud\Uni\Fall 2024\CPSC 300\Final Project\TasteBudsAPI\obj\Debug\net8.0\staticwebassets\msbuild.TasteBudsAPI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+Z:\E Backup\Cloud\Uni\Fall 2024\CPSC 300\Final Project\TasteBudsAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

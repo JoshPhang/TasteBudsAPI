@@ -15,6 +15,8 @@ builder.Services.AddDbContext<Shopping_cartDB>(
     opt => opt.UseSqlServer("Server=.;Initial Catalog=TasteBuds;User Id=TestUser; Password=passwd;Trusted_Connection=True;TrustServerCertificate=True"));
 builder.Services.AddDbContext<UserDB>(
     opt => opt.UseSqlServer("Server=.;Initial Catalog=TasteBuds;User Id=TestUser; Password=passwd;Trusted_Connection=True;TrustServerCertificate=True"));
+builder.Services.AddDbContext<PantryDB>(
+    opt => opt.UseSqlServer("Server=.;Initial Catalog=TasteBuds;User Id=TestUser; Password=passwd;Trusted_Connection=True;TrustServerCertificate=True"));
 
 var app = builder.Build();
 
@@ -184,6 +186,36 @@ app.MapDelete("/User/{id}", async (int id, UserDB db) =>
     if (await db.User.FindAsync(id) is User User)
     {
         db.User.Remove(User);
+        await db.SaveChangesAsync();
+        return Results.NoContent();
+    }
+
+    return Results.NotFound();
+});
+
+//Pantry
+app.MapGet("/Pantry", async (PantryDB db) =>
+await db.Pantry.ToListAsync());
+
+app.MapGet("/Pantry/{id}", async (int id, PantryDB db) =>
+    await db.Pantry.FindAsync(id)
+        is Pantry Pantry
+            ? Results.Ok(Pantry)
+            : Results.NotFound());
+
+app.MapPost("/Pantry", async ([AsParameters] Pantry Pantry, PantryDB db) =>
+{
+    db.Pantry.Add(Pantry);
+    await db.SaveChangesAsync();
+
+    return Results.Created($"/Pantry/{Pantry.User_id}", Pantry);
+});
+
+app.MapDelete("/Pantry/{id}", async (int id, PantryDB db) =>
+{
+    if (await db.Pantry.FindAsync(id) is Pantry Pantry)
+    {
+        db.Pantry.Remove(Pantry);
         await db.SaveChangesAsync();
         return Results.NoContent();
     }

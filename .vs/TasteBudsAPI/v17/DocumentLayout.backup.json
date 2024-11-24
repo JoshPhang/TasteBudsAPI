@@ -7,28 +7,44 @@
       "RelativeMoniker": "D:0:0:{C0640337-4A95-4473-969C-AC0ADB84632F}|TasteBudsAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0640337-4A95-4473-969C-AC0ADB84632F}|TasteBudsAPI.csproj|z:\\e backup\\cloud\\uni\\fall 2024\\cpsc 300\\final project\\tastebudsapi\\recipe_ingredient_junction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0640337-4A95-4473-969C-AC0ADB84632F}|TasteBudsAPI.csproj|solutionrelative:recipe_ingredient_junction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C0640337-4A95-4473-969C-AC0ADB84632F}|TasteBudsAPI.csproj|z:\\e backup\\cloud\\uni\\fall 2024\\cpsc 300\\final project\\tastebudsapi\\pantry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0640337-4A95-4473-969C-AC0ADB84632F}|TasteBudsAPI.csproj|solutionrelative:pantry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0640337-4A95-4473-969C-AC0ADB84632F}|TasteBudsAPI.csproj|z:\\e backup\\cloud\\uni\\fall 2024\\cpsc 300\\final project\\tastebudsapi\\recipe_ingredient_junctiondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0640337-4A95-4473-969C-AC0ADB84632F}|TasteBudsAPI.csproj|solutionrelative:recipe_ingredient_junctiondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C0640337-4A95-4473-969C-AC0ADB84632F}|TasteBudsAPI.csproj|z:\\e backup\\cloud\\uni\\fall 2024\\cpsc 300\\final project\\tastebudsapi\\pantrydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0640337-4A95-4473-969C-AC0ADB84632F}|TasteBudsAPI.csproj|solutionrelative:pantrydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0640337-4A95-4473-969C-AC0ADB84632F}|TasteBudsAPI.csproj|z:\\e backup\\cloud\\uni\\fall 2024\\cpsc 300\\final project\\tastebudsapi\\favourite_recipesdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0640337-4A95-4473-969C-AC0ADB84632F}|TasteBudsAPI.csproj|solutionrelative:favourite_recipesdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C0640337-4A95-4473-969C-AC0ADB84632F}|TasteBudsAPI.csproj|z:\\e backup\\cloud\\uni\\fall 2024\\cpsc 300\\final project\\tastebudsapi\\shopping_cartdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0640337-4A95-4473-969C-AC0ADB84632F}|TasteBudsAPI.csproj|solutionrelative:shopping_cartdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0640337-4A95-4473-969C-AC0ADB84632F}|TasteBudsAPI.csproj|z:\\e backup\\cloud\\uni\\fall 2024\\cpsc 300\\final project\\tastebudsapi\\ingredients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0640337-4A95-4473-969C-AC0ADB84632F}|TasteBudsAPI.csproj|solutionrelative:ingredients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C0640337-4A95-4473-969C-AC0ADB84632F}|TasteBudsAPI.csproj|z:\\e backup\\cloud\\uni\\fall 2024\\cpsc 300\\final project\\tastebudsapi\\recipes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0640337-4A95-4473-969C-AC0ADB84632F}|TasteBudsAPI.csproj|solutionrelative:recipes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C0640337-4A95-4473-969C-AC0ADB84632F}|TasteBudsAPI.csproj|z:\\e backup\\cloud\\uni\\fall 2024\\cpsc 300\\final project\\tastebudsapi\\shopping_cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0640337-4A95-4473-969C-AC0ADB84632F}|TasteBudsAPI.csproj|solutionrelative:shopping_cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0640337-4A95-4473-969C-AC0ADB84632F}|TasteBudsAPI.csproj|z:\\e backup\\cloud\\uni\\fall 2024\\cpsc 300\\final project\\tastebudsapi\\recipes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0640337-4A95-4473-969C-AC0ADB84632F}|TasteBudsAPI.csproj|solutionrelative:recipes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C0640337-4A95-4473-969C-AC0ADB84632F}|TasteBudsAPI.csproj|z:\\e backup\\cloud\\uni\\fall 2024\\cpsc 300\\final project\\tastebudsapi\\recipe_ingredient_junction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0640337-4A95-4473-969C-AC0ADB84632F}|TasteBudsAPI.csproj|solutionrelative:recipe_ingredient_junction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0640337-4A95-4473-969C-AC0ADB84632F}|TasteBudsAPI.csproj|z:\\e backup\\cloud\\uni\\fall 2024\\cpsc 300\\final project\\tastebudsapi\\ingredients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0640337-4A95-4473-969C-AC0ADB84632F}|TasteBudsAPI.csproj|solutionrelative:ingredients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0640337-4A95-4473-969C-AC0ADB84632F}|TasteBudsAPI.csproj|z:\\e backup\\cloud\\uni\\fall 2024\\cpsc 300\\final project\\tastebudsapi\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0640337-4A95-4473-969C-AC0ADB84632F}|TasteBudsAPI.csproj|solutionrelative:user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0640337-4A95-4473-969C-AC0ADB84632F}|TasteBudsAPI.csproj|z:\\e backup\\cloud\\uni\\fall 2024\\cpsc 300\\final project\\tastebudsapi\\favourite_recipesdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0640337-4A95-4473-969C-AC0ADB84632F}|TasteBudsAPI.csproj|solutionrelative:favourite_recipesdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0640337-4A95-4473-969C-AC0ADB84632F}|TasteBudsAPI.csproj|z:\\e backup\\cloud\\uni\\fall 2024\\cpsc 300\\final project\\tastebudsapi\\favourite_recipes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0640337-4A95-4473-969C-AC0ADB84632F}|TasteBudsAPI.csproj|solutionrelative:favourite_recipes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C0640337-4A95-4473-969C-AC0ADB84632F}|TasteBudsAPI.csproj|z:\\e backup\\cloud\\uni\\fall 2024\\cpsc 300\\final project\\tastebudsapi\\ingredientsdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,43 +70,81 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Favourite_recipesDB.cs",
-              "DocumentMoniker": "Z:\\E Backup\\Cloud\\Uni\\Fall 2024\\CPSC 300\\Final Project\\TasteBudsAPI\\Favourite_recipesDB.cs",
-              "RelativeDocumentMoniker": "Favourite_recipesDB.cs",
-              "ToolTip": "Z:\\E Backup\\Cloud\\Uni\\Fall 2024\\CPSC 300\\Final Project\\TasteBudsAPI\\Favourite_recipesDB.cs",
-              "RelativeToolTip": "Favourite_recipesDB.cs",
+              "Title": "Shopping_cartDB.cs",
+              "DocumentMoniker": "Z:\\E Backup\\Cloud\\Uni\\Fall 2024\\CPSC 300\\Final Project\\TasteBudsAPI\\Shopping_cartDB.cs",
+              "RelativeDocumentMoniker": "Shopping_cartDB.cs",
+              "ToolTip": "Z:\\E Backup\\Cloud\\Uni\\Fall 2024\\CPSC 300\\Final Project\\TasteBudsAPI\\Shopping_cartDB.cs",
+              "RelativeToolTip": "Shopping_cartDB.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T04:46:26.668Z",
+              "WhenOpened": "2024-11-24T00:07:10.51Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Recipe_Ingredient_JunctionDB.cs",
-              "DocumentMoniker": "Z:\\E Backup\\Cloud\\Uni\\Fall 2024\\CPSC 300\\Final Project\\TasteBudsAPI\\Recipe_Ingredient_JunctionDB.cs",
-              "RelativeDocumentMoniker": "Recipe_Ingredient_JunctionDB.cs",
-              "ToolTip": "Z:\\E Backup\\Cloud\\Uni\\Fall 2024\\CPSC 300\\Final Project\\TasteBudsAPI\\Recipe_Ingredient_JunctionDB.cs",
-              "RelativeToolTip": "Recipe_Ingredient_JunctionDB.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABuAAAAAAAAAA==",
+              "Title": "PantryDB.cs",
+              "DocumentMoniker": "Z:\\E Backup\\Cloud\\Uni\\Fall 2024\\CPSC 300\\Final Project\\TasteBudsAPI\\PantryDB.cs",
+              "RelativeDocumentMoniker": "PantryDB.cs",
+              "ToolTip": "Z:\\E Backup\\Cloud\\Uni\\Fall 2024\\CPSC 300\\Final Project\\TasteBudsAPI\\PantryDB.cs",
+              "RelativeToolTip": "PantryDB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T04:46:24.644Z",
+              "WhenOpened": "2024-11-24T00:07:08.335Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Pantry.cs",
+              "DocumentMoniker": "Z:\\E Backup\\Cloud\\Uni\\Fall 2024\\CPSC 300\\Final Project\\TasteBudsAPI\\Pantry.cs",
+              "RelativeDocumentMoniker": "Pantry.cs",
+              "ToolTip": "Z:\\E Backup\\Cloud\\Uni\\Fall 2024\\CPSC 300\\Final Project\\TasteBudsAPI\\Pantry.cs",
+              "RelativeToolTip": "Pantry.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T00:06:07.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "Z:\\E Backup\\Cloud\\Uni\\Fall 2024\\CPSC 300\\Final Project\\TasteBudsAPI\\User.cs",
+              "RelativeDocumentMoniker": "User.cs",
+              "ToolTip": "Z:\\E Backup\\Cloud\\Uni\\Fall 2024\\CPSC 300\\Final Project\\TasteBudsAPI\\User.cs",
+              "RelativeToolTip": "User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T00:00:15.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Favourite_recipesDB.cs",
+              "DocumentMoniker": "Z:\\E Backup\\Cloud\\Uni\\Fall 2024\\CPSC 300\\Final Project\\TasteBudsAPI\\Favourite_recipesDB.cs",
+              "RelativeDocumentMoniker": "Favourite_recipesDB.cs",
+              "ToolTip": "Z:\\E Backup\\Cloud\\Uni\\Fall 2024\\CPSC 300\\Final Project\\TasteBudsAPI\\Favourite_recipesDB.cs",
+              "RelativeToolTip": "Favourite_recipesDB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T04:46:26.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Recipe_Ingredient_Junction.cs",
               "DocumentMoniker": "Z:\\E Backup\\Cloud\\Uni\\Fall 2024\\CPSC 300\\Final Project\\TasteBudsAPI\\Recipe_Ingredient_Junction.cs",
               "RelativeDocumentMoniker": "Recipe_Ingredient_Junction.cs",
               "ToolTip": "Z:\\E Backup\\Cloud\\Uni\\Fall 2024\\CPSC 300\\Final Project\\TasteBudsAPI\\Recipe_Ingredient_Junction.cs",
               "RelativeToolTip": "Recipe_Ingredient_Junction.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-16T04:43:13.978Z",
               "EditorCaption": ""
@@ -110,7 +164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": ".gitignore",
               "DocumentMoniker": "Z:\\E Backup\\Cloud\\Uni\\Fall 2024\\CPSC 300\\Final Project\\TasteBudsAPI\\.gitignore",
               "RelativeDocumentMoniker": ".gitignore",
@@ -118,12 +172,11 @@
               "RelativeToolTip": ".gitignore",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAEAAAAAAAAAA==",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF8SURBVDhPjVNLTgJBEG1lwpoFB3GNK9fieA48hD8iwT/ihwgSDAIHgAGXXsEV18CNzL/LquqZdsYM6kteXqcy3fWqpmpNRBgOhyABBEgpAFVKPIMUcYzUyOU\u002BXM/b2qtU3vkSfRjjZTCAMAw1A2LwzdFoBPP5HNqdzuL27n4juibWI\u002BUshBA1DIkhEx9iEorFotgslQqGYbxxAGFEqt1MxmPWJLbLZdZ\u002Bv89q5PMFPiTR6z2zdaxR0fXA0XTBcVywkb4fwHXjRteecIDNQ7UmExVYAdPcxYaqclN46na5WenMKjtlVnTYwcXlVYaDqImW9beD5N/TeGy32QHXm6hZ03ZgiSQHp2fnWQ4oBmJqWSqwAqZpZjt4aLXAD4J0VqyZsmoubfB8H2r1eoaD6NXZ9HcHO\u002BSA3f4AjifXl8rItOETM8ckB9WTWpYD9RdeZ1PWVWAHWXPQaDb59f/w8LiqHeh1pvGkCaP6qB8yXusoxmuNZ7XmII4O9vGuEF86osuDYRkpYQAAAABJRU5ErkJggg==",
-              "WhenOpened": "2024-11-15T00:33:15.494Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-15T00:33:15.494Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "IngredientsDB.cs",
               "DocumentMoniker": "Z:\\E Backup\\Cloud\\Uni\\Fall 2024\\CPSC 300\\Final Project\\TasteBudsAPI\\IngredientsDB.cs",
               "RelativeDocumentMoniker": "IngredientsDB.cs",
@@ -131,25 +184,24 @@
               "RelativeToolTip": "IngredientsDB.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T13:18:55.134Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-09T13:18:55.134Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Ingredients.cs",
               "DocumentMoniker": "Z:\\E Backup\\Cloud\\Uni\\Fall 2024\\CPSC 300\\Final Project\\TasteBudsAPI\\Ingredients.cs",
               "RelativeDocumentMoniker": "Ingredients.cs",
               "ToolTip": "Z:\\E Backup\\Cloud\\Uni\\Fall 2024\\CPSC 300\\Final Project\\TasteBudsAPI\\Ingredients.cs",
               "RelativeToolTip": "Ingredients.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-09T13:17:06.97Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "TasteBudsAPI.http",
               "DocumentMoniker": "Z:\\E Backup\\Cloud\\Uni\\Fall 2024\\CPSC 300\\Final Project\\TasteBudsAPI\\TasteBudsAPI.http",
               "RelativeDocumentMoniker": "TasteBudsAPI.http",
@@ -157,12 +209,11 @@
               "RelativeToolTip": "TasteBudsAPI.http",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-11-08T17:38:48.919Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-08T17:38:48.919Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "RecipesDB.cs",
               "DocumentMoniker": "Z:\\E Backup\\Cloud\\Uni\\Fall 2024\\CPSC 300\\Final Project\\TasteBudsAPI\\RecipesDB.cs",
               "RelativeDocumentMoniker": "RecipesDB.cs",
@@ -174,13 +225,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "Recipes.cs",
               "DocumentMoniker": "Z:\\E Backup\\Cloud\\Uni\\Fall 2024\\CPSC 300\\Final Project\\TasteBudsAPI\\Recipes.cs",
               "RelativeDocumentMoniker": "Recipes.cs",
               "ToolTip": "Z:\\E Backup\\Cloud\\Uni\\Fall 2024\\CPSC 300\\Final Project\\TasteBudsAPI\\Recipes.cs",
               "RelativeToolTip": "Recipes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-07T22:50:10.604Z",
               "EditorCaption": ""
@@ -191,12 +242,24 @@
               "Title": "Program.cs",
               "DocumentMoniker": "Z:\\E Backup\\Cloud\\Uni\\Fall 2024\\CPSC 300\\Final Project\\TasteBudsAPI\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "Z:\\E Backup\\Cloud\\Uni\\Fall 2024\\CPSC 300\\Final Project\\TasteBudsAPI\\Program.cs*",
-              "RelativeToolTip": "Program.cs*",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ToolTip": "Z:\\E Backup\\Cloud\\Uni\\Fall 2024\\CPSC 300\\Final Project\\TasteBudsAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-07T22:47:56.436Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Favourite_recipes.cs",
+              "DocumentMoniker": "Z:\\E Backup\\Cloud\\Uni\\Fall 2024\\CPSC 300\\Final Project\\TasteBudsAPI\\Favourite_recipes.cs",
+              "RelativeDocumentMoniker": "Favourite_recipes.cs",
+              "ToolTip": "Z:\\E Backup\\Cloud\\Uni\\Fall 2024\\CPSC 300\\Final Project\\TasteBudsAPI\\Favourite_recipes.cs",
+              "RelativeToolTip": "Favourite_recipes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T04:52:40.576Z"
             }
           ]
         }

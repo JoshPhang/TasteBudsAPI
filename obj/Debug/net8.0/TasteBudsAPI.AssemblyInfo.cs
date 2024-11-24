@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TasteBudsAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+45dcdcbe3a5c6a2a12cd85766e95f11c285b18ba")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+82760850f945d9f1e61a4f3fae9d2f5d6a991f76")]
 [assembly: System.Reflection.AssemblyProductAttribute("TasteBudsAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TasteBudsAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
