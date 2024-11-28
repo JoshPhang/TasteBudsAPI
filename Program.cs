@@ -18,7 +18,19 @@ builder.Services.AddDbContext<UserDB>(
 builder.Services.AddDbContext<PantryDB>(
     opt => opt.UseSqlServer("Server=.;Initial Catalog=TasteBuds;User Id=TestUser; Password=passwd;Trusted_Connection=True;TrustServerCertificate=True"));
 
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll", builder =>
+    {
+        builder.AllowAnyOrigin()
+               .AllowAnyHeader()
+               .AllowAnyMethod();
+    });
+});
+
 var app = builder.Build();
+app.UseCors("AllowAll");
 
 app.MapGet("/recipe", async (RecipesDB db) =>
     await db.Recipe.ToListAsync());
@@ -223,11 +235,17 @@ app.MapDelete("/Pantry/{id}", async (int id, PantryDB db) =>
     return Results.NotFound();
 });
 
+
+app.MapGet("/Recipe_Search/{ingredient_id}", async (int ingredient_id, Recipe_Ingredient_JunctionDB db) =>
+    await db.Recipe_Ingredient_Junction.FindAsync(ingredient_id)
+        is Recipe_Ingredient_Junction Recipe
+            ? Results.Ok(Recipe)
+            : Results.NotFound());
+
+
 app.Run();
+
 
 //mapget, mappost, mapdelete for every table
 //user, shopping cart, fav recipe, recip-ing-junction
 //create ingredient.cs and ingredoient.DB
-
-app.Run();
-
