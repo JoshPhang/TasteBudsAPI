@@ -25,7 +25,7 @@ To manage the SQL Server database, you will need to install SQL Server Managemen
 
 ### 2.2 Connect to a Local Server
 
-1. In the **Connect to Server** window, type **`.`** (period) or **`localhost`** in the **Server name** field to connect to your local SQL Server instance.
+1. In the **Connect to Server** window, type **.** (period) or **localhost** in the **Server name** field to connect to your local SQL Server instance.
 2. Choose **Windows Authentication** as the authentication method (default option) if you're using your Windows credentials to connect.
 3. Click **Connect**.
 
