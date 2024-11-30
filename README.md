@@ -12,9 +12,10 @@ The Recipe Suggestion App is a user-friendly application designed to help studen
 To run the App locally, follow these steps:
 
 ## Step 1: Save the database file 
-###(I am not sure if we are sending the link or sending the database file with the submission)
+### (I am not sure if we are sending the link or sending the sql file with the submission)
 
 ## Step 2: Install and Set Up SQL Server Management Studio (SSMS)
+To manage the SQL Server database, you will need to install SQL Server Management Studio (SSMS), a powerful tool for querying, designing, and administering your database.
 
 ### 2.1 Download SSMS
 
@@ -38,26 +39,21 @@ To run the App locally, follow these steps:
 6. You should now see the newly created database in the list of available databases.
 7. "DO WE HAVE TO ADD STEPS FOR CREATING NEW LOGIN AND STUFF?" I ACTUALLY FORGOT THE EXACT STEP
 
-## Step 3: Install Visual Studio
+## Step 3: Install and set upVisual Studio
 
 To begin development of the Recipe Suggestion App, you will need to install **Visual Studio**, which includes support for **ASP.NET** applications.
 
-### 3.1 Download Visual Studio
+### 3.1 Download and set up Visual Studio
 
 1. Visit the official [Visual Studio download page](https://visualstudio.microsoft.com/downloads/).
-2. Select the **Community** edition (free for individual use) or any other edition based on your preference.
-3. Click **Download** to get the installer file.
+2. Select the **Community** edition (free for individual use).
+3. Run the installer and choose the **ASP.NET and web development** workload. This will include:
+   - **ASP.NET Core**
+   - **C#** language support
+   - **Entity Framework Core**
+4. Complete the installation process, it may take some time depending on your internet connection and system configuration.
+5. Once the installation is complete, launch **Visual Studio**.
 
-### 3.2 Install Visual Studio
-
-1. Run the **Visual Studio Installer** after the download completes.
-2. In the installer, select the **"ASP.NET and web development"** workload. This will install all the necessary tools and dependencies for **ASP.NET** development.
-3. Click **Install** to begin the installation. The process may take some time depending on your internet connection and system configuration.
-4. Once the installation is complete, launch **Visual Studio**.
-
-### 3.3 Set Up Your Development Environment
-
-1. Open the **Recipe Suggestion App** project in **Visual Studio**.
 
 
 
