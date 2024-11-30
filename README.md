@@ -1,4 +1,4 @@
-# Welcome to the TasteBuds- a Recipe Suggestion App
+# Welcome to the TasteBuds - a Recipe Suggestion App
 
 ## Overview
 The Recipe Suggestion App is a user-friendly application designed to help students and busy individuals decide what to cook with the ingredients they have. It simplifies meal planning by providing recipe suggestions and generating shopping lists for selected dishes.
