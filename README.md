@@ -32,12 +32,11 @@ To manage the SQL Server database, you will need to install SQL Server Managemen
 ### 2.3 Verify Database Connection and executing the SQL file
 
 1. Once connected, you should see the **Object Explorer** window appear on the left.
-2. Click on **New Query** in SSMS to open a new query window.
-3. Open the SQL script containing the table creation commands which you saved in your computer in Step 1. To do this open the script from your local file system.
-4. **Select** the whole query, click **Execute** to run the SQL script and create the necessary tables in your database.
-5. After executing the script, refresh the **Databases** node in the **Object Explorer**.
-6. You should now see the newly created database in the list of available databases.
-7. "DO WE HAVE TO ADD STEPS FOR CREATING NEW LOGIN AND STUFF?" I ACTUALLY FORGOT THE EXACT STEP
+2. Open the SQL script containing the table creation commands which you saved in your computer in Step 1. To do this open the script from your local file system.
+3. **Select** the whole query, click **Execute** to run the SQL script and create the necessary tables in your database.
+4. After executing the script, refresh the **Databases** node in the **Object Explorer**.
+5. You should now see the newly created database in the list of available databases.
+6. "DO WE HAVE TO ADD STEPS FOR CREATING NEW LOGIN AND STUFF?" I ACTUALLY FORGOT THE EXACT STEP
 
 ## Step 3: Install and set upVisual Studio
 
